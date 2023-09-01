@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.board-row{
+  
+    
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    color: blue;
+    font-size: 2em;
+    border-bottom-left-radius: ;
+}
