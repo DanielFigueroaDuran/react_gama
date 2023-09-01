@@ -4,22 +4,21 @@
     box-sizing: border-box;
 }
 
-.container{
+/* .container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
-}
-
-.board-row{
-  
     
-}
+} */
 
+
+.container {
+    background-color: aqua;
+}
 .square{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     color: blue;
-    font-size: 2em;
-    border-bottom-left-radius: ;
+    background-color: blueviolet;
+   
 }
