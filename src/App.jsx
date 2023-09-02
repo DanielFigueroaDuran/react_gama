@@ -3,6 +3,8 @@ import Board from './components/board/Board'
 import CreditCard from "./components/creditcard/CreditCard.jsx"
 import { cardCredit } from "./components/creditcard/cardData.js";
 import Rating from './components/linkedinShop/Rating';
+import UseCard from './components/linkedinShop/UseCard';
+
 
 function App() {
     //console.log(cardCredit);
@@ -19,6 +21,11 @@ function App() {
                 <div className='containerRating'>
                     <Rating />
                 </div>
+
+                <div>
+                    <UseCard/>
+                </div>
+
             </div>
         </>
 
