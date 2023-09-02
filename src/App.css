@@ -11,11 +11,20 @@
     
 } */
 
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
 
-.container {
+.containerCard {
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
+}
+
+.containerRating{
+    padding: 30px;
 }
 
 .square {
