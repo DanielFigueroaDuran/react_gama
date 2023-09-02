@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Rating.css";
 
 const RatingStar = ({star}) => {
 
@@ -17,7 +18,7 @@ const RatingStar = ({star}) => {
     }
     //console.log(newStar);
   return (
-    <div>{newStar}</div>
+    <div className='row' >{newStar}</div>
   )
 }
 

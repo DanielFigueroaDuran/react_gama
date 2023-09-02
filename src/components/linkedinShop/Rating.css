@@ -1,0 +1,15 @@
+.rating{
+    width: 150px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.3rem;
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.75);
+}
+
+.row{
+display: flex;
+gap: .6rem;
+}
