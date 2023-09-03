@@ -4,6 +4,7 @@ import CreditCard from "./components/creditcard/CreditCard.jsx"
 import { cardCredit } from "./components/creditcard/cardData.js";
 import Rating from './components/linkedinShop/Rating';
 import UseCard from './components/linkedinShop/UseCard';
+import PokeApi from './components/pokeApi/PokeApi';
 
 
 function App() {
@@ -23,9 +24,11 @@ function App() {
                 </div>
 
                 <div>
-                    <UseCard/>
+                    <UseCard />
                 </div>
 
+                
+                <PokeApi />
             </div>
         </>
 
