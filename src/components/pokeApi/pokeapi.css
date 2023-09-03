@@ -1,0 +1,19 @@
+.containeCard{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 1rem;
+}
+
+.cardPokeapi{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.75);
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}

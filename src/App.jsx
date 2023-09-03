@@ -19,13 +19,13 @@ function App() {
                     {cardCredit.map((card, i) => <CreditCard card={card} key={i} />)}
                 </div>
 
-                <div className='containerRating'>
+                {/* <div className='containerRating'>
                     <Rating />
                 </div>
 
                 <div>
                     <UseCard />
-                </div>
+                </div> */}
 
                 
                 <PokeApi />

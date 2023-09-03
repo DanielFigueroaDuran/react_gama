@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Rating.css";
 
-const RatingStar = ({star }) => {
+const RatingStar = ({star}) => {
 
   // console.log(star);
 
@@ -22,7 +22,7 @@ const RatingStar = ({star }) => {
   // console.log(newStar);
   return (
     <div className='row'>
-      <p >{newStar}</p>
+      <p>{newStar}</p>
     </div>
   )
 }
