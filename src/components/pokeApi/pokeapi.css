@@ -8,6 +8,8 @@ gap: 1rem;
 .cardPokeapi{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 1rem;
     width: 200px;
     padding: 20px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.75);
@@ -16,4 +18,9 @@ gap: 1rem;
 img{
     width: 100px;
     height: 100px;
+} 
+
+.btn{
+    border: none;
+    padding: 10px;
 }

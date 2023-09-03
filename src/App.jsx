@@ -14,7 +14,7 @@ function App() {
         <>
             
             <div >
-                
+
             <Board />
 
                 <div className='containerCard'>
@@ -31,7 +31,7 @@ function App() {
                 </div> */}
 
 
-                {/* <PokeApi /> */}
+                <PokeApi />
             </div>
         </>
 
