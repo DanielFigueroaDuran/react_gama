@@ -12,9 +12,12 @@ function App() {
 
     return (
         <>
-            <div className='container'>
+            
+            <div >
+                
+            <Board />
+
                 <div className='containerCard'>
-                    {/* <Board /> */}
 
                     {cardCredit.map((card, i) => <CreditCard card={card} key={i} />)}
                 </div>
@@ -27,8 +30,8 @@ function App() {
                     <UseCard />
                 </div> */}
 
-                
-                <PokeApi />
+
+                {/* <PokeApi /> */}
             </div>
         </>
 

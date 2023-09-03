@@ -28,9 +28,6 @@
 }
 
 .square {
-    width: 200px;
-    height: 200px;
-    color: blue;
-    background-color: blueviolet;
-
+    width: 100px;
+    height: 100px;   
 }
