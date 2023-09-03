@@ -1,5 +1,6 @@
 import './App.css'
 import Board from './components/board/Board'
+import ButtonList from './components/buttons4/ButtonList';
 import CreditCard from "./components/creditcard/CreditCard.jsx"
 import { cardCredit } from "./components/creditcard/cardData.js";
 import Rating from './components/linkedinShop/Rating';
@@ -12,10 +13,10 @@ function App() {
 
     return (
         <>
-            
+
             <div >
 
-            <Board />
+                <Board />
 
                 <div className='containerCard'>
 
@@ -28,10 +29,12 @@ function App() {
 
                 <div>
                     <UseCard />
-                </div> */}
+                </div> 
+                <PokeApi />*/}
 
-
-                <PokeApi />
+                <div className='containerButton'>
+                    <ButtonList num={50}/>
+                </div>
             </div>
         </>
 
