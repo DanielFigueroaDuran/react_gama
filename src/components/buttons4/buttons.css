@@ -1,0 +1,43 @@
+.containerReact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.titleReact{
+    text-align: center;
+}
+
+h2{
+    font-size: 25px;
+
+}
+
+.containerNum{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    gap: .1rem;
+}
+
+.btn{
+    width: 100px;
+    height: 100px;
+    color: #fff;
+}
+
+.btnPar{
+    background: green;
+}
+
+.btnCousins{
+    background: red;
+}
+
+.btnOdd{
+background: yellow;
+}
