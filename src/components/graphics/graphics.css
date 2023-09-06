@@ -1,12 +1,16 @@
-.graphics{
+/* .graphics{
   width: 80vw;
   display: flex;
   flex-direction: column;    
   gap: 10px;
   padding: 20px;  
   border-radius: 6px;
-}
+} */
 
+.containerGraphics{
+    display: flex;
+    justify-content: space-between;    
+}
 
 .country{
   display: flex;
@@ -16,7 +20,16 @@
 }
 
 .percentage{
-  background-color: rgb(247, 160, 21);
+    width: 600px;
+  /* background-color: rgb(247, 160, 21); */
   
+}
+
+.population{
+
+}
+
+span{
+    font-size: 10px;
 }
   
