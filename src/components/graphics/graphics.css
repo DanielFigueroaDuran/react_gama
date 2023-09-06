@@ -1,0 +1,22 @@
+.graphics{
+  width: 80vw;
+  display: flex;
+  flex-direction: column;    
+  gap: 10px;
+  padding: 20px;  
+  border-radius: 6px;
+}
+
+
+.country{
+  display: flex;
+  justify-content: space-between;
+  align-self: auto;
+  gap: 10px;  
+}
+
+.percentage{
+  background-color: rgb(247, 160, 21);
+  
+}
+  

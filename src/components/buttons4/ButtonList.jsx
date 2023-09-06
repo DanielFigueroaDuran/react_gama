@@ -21,7 +21,7 @@ const ButtonList = ({ num }) => {
         return numero !== 1;
     }
 
-    for (let i = 1; i <= num; i++) {
+    for (let i = 0; i <= num; i++) {
         if (primo(i)) {
             newNum.push(<button onClick={() => console.log(i)} key={i} className="btn btnCousins ">{i}</button>)
         } else {
@@ -49,7 +49,7 @@ const ButtonList = ({ num }) => {
     //     : newNum.push(<button className='btn btnOdd' key={i}>{i}</button>);
     //}
 
-    console.log(newNum);
+    //console.log(newNum);
 
     return (
         <>
